@@ -1,3 +1,30 @@
+/* FONTS */
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("../fonts/KumbhSans-Bold.woff2") format("woff2"),
+      url("../fonts/KumbhSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("../fonts/KumbhSans-Medium.woff2") format("woff2"),
+      url("../fonts/KumbhSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("../fonts/KumbhSans-Regular.woff2") format("woff2"),
+      url("../fonts/KumbhSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /* GLOBAL */
 html{
   scroll-behavior: smooth;
@@ -17,10 +44,10 @@ body{
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Kumbh-Sans" "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #f2f2f2;
   color: #222;
 }
 
@@ -33,7 +60,8 @@ img{
 /* CONTAINER */
 .container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
+  max-height: 900px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
@@ -44,4 +72,115 @@ img{
 /* MAIN-CONTENT */
 .main-content{
   flex-grow: 1;
+}
+
+/* SITE */
+.site-container {
+  padding-top: 28px;
+  padding-bottom: 132px;
+}
+
+.site-container-party {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-container-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-logo {
+  margin-top: 28px;
+  margin-left: 165px;
+}
+
+.site-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-item{
+  font-family: KumbhSans-Regular;
+  margin-top: 28px;
+  margin-right: 56px;
+  margin-left: 33px;
+  list-style: none;
+}
+
+.site-item-hover{
+  color: #1d2026;
+}
+
+.site-item-active{
+  opacity: 0.6;
+}
+
+.site-link {
+  font-weight: KumbhSans-Regular;
+  font-size: 15px;
+  font-weight: 400;
+  color: #69707d;
+  text-decoration: none;
+}
+
+
+
+.site-top-img {
+  display: flex;
+  align-items: center;
+  margin-left: 165px;
+  justify-content: space-between;
+}
+
+.site-top-img-karzina {
+  margin-right: 46px;
+}
+
+.site-top-img-akaunt{
+  margin-right: 165px;
+}
+
+.site-hr{
+  width: 1100px;
+  height: 1px;
+  background: #e4e9f2;
+}
+
+/* SITE-HEAD */
+.main-pard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  width: 1015px;
+  height: 556px;
+  margin-left: 213px;
+  margin-right: 212px;
+  margin-top: 125px;
+  background-color: #f2f2f2;
+}
+
+.main-pard-img {
+  width: 445px;
+  height: 556px;
+  margin-top: 203px;
+  margin-bottom: 132px;
+}
+
+.main-subdivision {
+  width: 445px;
+  height: 88px;
+}
+
+
+.main-subdivision-img {
+  margin-left: 32px;
+}
+
+.site-subpage-name{
+  font-family: KumbhSans-Bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ff7e1b;
 }
