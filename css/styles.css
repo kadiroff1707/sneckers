@@ -91,6 +91,8 @@ img{
 }
 
 .site-logo {
+  width: 137px ;
+  height: 158px;
   margin-top: 28px;
   margin-left: 165px;
 }
@@ -162,25 +164,63 @@ img{
 }
 
 .main-pard-img {
-  width: 445px;
+
   height: 556px;
   margin-top: 203px;
   margin-bottom: 132px;
 }
 
 .main-subdivision {
-  width: 445px;
-  height: 88px;
+
 }
 
 
 .main-subdivision-img {
-  margin-left: 32px;
+  margin-left: 31px;
+  margin-right: 32px;
 }
 
+
 .site-subpage-name{
+
+}
+
+.page-name{
+
+}
+
+.site-text-information{
+}
+
+
+.site-text-container {
+  margin-left: ;
+
+}
+.container {
+}
+.site-text-reception {
+}
+.site-subpage-name {
   font-family: KumbhSans-Bold;
   font-size: 13px;
   line-height: 16px;
   color: #ff7e1b;
 }
+.page-name {
+  font-family: KumbhSans-Bold;
+}
+
+.site-text-information {
+  font-family: KumbhSans-Regular;
+}
+
+.page-name-cost {
+
+}
+
+.page-discount {
+
+}
+
+.page-original-price {
